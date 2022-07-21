@@ -1,0 +1,274 @@
+/*----- fonts------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*-----------------
+ common utilities 
+------------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.header-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 80%;
+    background-color: black;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.header-left {
+    padding: 30px;
+}
+
+.header-left h1 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+}
+
+.header-left p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-left button {
+    color: white;
+    background-color: indianred;
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.header-left button i {
+    margin: 0.5em;
+}
+
+.header-right img {
+    width: 100%;
+    background-position: center;
+}
+
+
+/*-----------------
+group-details
+-----------------*/
+
+.group-details {
+    padding: 10px;
+}
+
+.group-container-main {}
+
+.group-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.group-banner p {
+    border: 1px solid white;
+}
+
+.group-transfer {
+    border: 1px solid lightgray;
+    width: 45%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.group-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.time-duration {
+    width: 60px;
+    height: 26px;
+}
+
+.group-message {
+    width: 53px;
+    height: 26px;
+}
+
+nav li {
+    list-style: none;
+    margin-bottom: 20px;
+    /* border: 2px solid white; */
+}
+
+
+/*----------------
+ form navigation
+ ---------------*/
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.active {
+    background-color: red;
+    color: #FFF;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.schedule-details {
+    text-align: center;
+    line-height: 10px;
+}
+
+.teamName {
+    font-size: 20px;
+}
+
+.schedule {
+    font-size: 16px;
+}
+
+.schedule-group {
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.flag-group {
+    display: flex;
+}
+
+.left-country img {
+    padding: 10px;
+    height: 60%;
+    width: 80%;
+}
+
+.right-country img {
+    padding: 10px;
+    height: 60%;
+    width: 80%;
+}
+
+.center-text {
+    vertical-align: bottom;
+    margin-top: 10%;
+}
+
+
+/*-------------------
+ social icon section
+ ------------------*/
+
+.social-media {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a {
+    color: white;
+}
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+    margin: 10px;
+    box-shadow: 1px 1px 8px lightgray;
+}
+
+
+/*--------------
+footer style 
+--------------*/
+
+.custom-footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.custom-footer h2 {
+    color: white;
+}
+
+
+/*--------------
+footer style 
+--------------*/
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+footer h3 {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {
+    display: flex;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(155, 155, 155);
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu p {
+    margin: 10px;
+}
